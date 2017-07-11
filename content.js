@@ -13,7 +13,8 @@ chrome.runtime.onMessage.addListener(
       		var secondsRemaining = 59+(christmas.getSeconds()-currentDate.getSeconds());
 
       		//window.alert("Christmas is on "+christmas+ " "+currentDate);
-      		window.alert("There are "+monthsRemaining+ " months "+daysRemaining+" days "+hoursRemaining+" hours "+minutesRemaining+" minutes "+secondsRemaining+" seconds until Christmas Day");
+      		//window.alert("There are "+monthsRemaining+ " months "+daysRemaining+" days "+hoursRemaining+" hours "+minutesRemaining+" minutes "+secondsRemaining+" seconds until Christmas Day");
+      		document.getElementById("countdown").value = ("There are "+monthsRemaining+ " months "+daysRemaining+" days "+hoursRemaining+" hours "+minutesRemaining+" minutes "+secondsRemaining+" seconds until Christmas Day");
     	}
 	}
 	

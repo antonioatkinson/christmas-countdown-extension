@@ -7,11 +7,12 @@
 			"matches": [
 				"<all_urls>"
 			],
-			"js": ["jquery-3.2.1.min.js", "content.js"]
+			"js": ["jquery-3.2.1.min.js", "content.js","popup.js"]
 		}
 	],
 	"browser_action": {
-		"default_icon": "christmastree.png"
+		"default_icon": "christmastree.png",
+		"default_popup": "popup.html"
 	},
 	"background": {
 		"scripts": ["background.js"]
