@@ -1,12 +1,14 @@
 *{
   font-family: 'Raleway', sans-serif;
+  font-size:15px;
+  font-weight:bold;
 }
 body{
 	margin:0;
 	padding:0;
 }
 .wrapper {
-	padding: 0;
+	padding: 40px;
 	margin:0;
 }
 .countdown {
@@ -38,6 +40,10 @@ body:after{
     background-color: white;
 }
 .clock-label{
-	font-size: 12px;
+	font-size:40px;
 	font-weight:bold;
+}
+.container{
+	width:550px;
+	height:90px;
 }
